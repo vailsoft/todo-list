@@ -32,12 +32,6 @@ export class Tarefa{
             this.feita = checkbox.checked;
             tr.className = this.feita ? "done":"";
         });      
-
-        // // Removendo tarefa da DOM
-        // let bt = tr.querySelector("i");
-        // bt.addEventListener("click",()=>{
-        //     tr.remove();
-        // })
         
         return tr;
     }
